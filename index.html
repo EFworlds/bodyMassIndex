@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/jscript.js"></script>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 30px auto;
+            grid-gap: 10px;
+            display: grid;
+        }
+       
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div id="img_div" style="text-align: center;"></div>
+        </div>
+        <div class="box2">
+            <label for="">Не хотите ли узнать насколько Вы в форме?</label>
+            <hr>
+            <label for="inp_height">А введите ка свой рост в сантиметрах: </label>
+            <p><input type="text" id="inp_height"></p>
+            <label for="inp_weight">А введите ка свой вес в килограммах: </label>
+            <p><input type="text" id="inp_weight"></p>
+            <P><button onclick="bmindex()">Не боитесь? Тогда жмите.</button></P>
+            <p> <label for="lbl">В результате имеем:</label> </p>
+            <p><label id="result"></label></p>
+        </div>
+        <div class="box3">
+            <div id="img_div1" ></div>
+            
+        </div>
+   
+    </div>
+
+       
+     
+</body>
+</html>
